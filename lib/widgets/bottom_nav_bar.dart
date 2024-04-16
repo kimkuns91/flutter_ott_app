@@ -13,6 +13,7 @@ class BottomNavBar extends StatelessWidget {
       child: Scaffold(
         // ignore: avoid_unnecessary_containers
         bottomNavigationBar: Container(
+          padding: const EdgeInsets.only(bottom: 10, top: 5),
           child: const TabBar(
             tabs: [
               Tab(
@@ -28,7 +29,9 @@ class BottomNavBar extends StatelessWidget {
                 text: 'New & Hot',
               )
             ],
+            indicatorSize: TabBarIndicatorSize.label,
             indicatorColor: Colors.transparent,
+            indicatorWeight: 3,
             labelColor: Colors.white,
             unselectedLabelColor: Color(0xff999999),
           ),

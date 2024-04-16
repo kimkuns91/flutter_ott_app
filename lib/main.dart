@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:study_base_flutter/screens/bottomnavigation_screen.dart';
 import 'package:study_base_flutter/widgets/bottom_nav_bar.dart';
 
 void main() => runApp(const MyApp());
